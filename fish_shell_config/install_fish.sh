@@ -15,7 +15,7 @@ then
    echo "Installing fish quickly"
    set -x
    set +x
-elif [ "$1" = "full" ]
+elif [ "$2" = "full" ]
 then
    echo "Installing fish from the scratch"
    set -x
