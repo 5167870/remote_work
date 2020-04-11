@@ -22,7 +22,7 @@ then
    sudo apt update
    sudo apt install fish
    curl -L https://get.oh-my.fish > install
-   echo "bbace7ef16956d87fd40bff91cd1992a90621e7931ac3055f16b7f6d679e8fff install" | sha256sum --check
+   echo "bb1f4025934600ea6feef2ec11660e17e2b6449c5a23c033860aed712ad328c9 install" | sha256sum --check
    fish install --path=~/.local/share/omf --config=~/.config/omf --noninteractive --yes
    rm install
    fish -c "omf install bobthefish"
